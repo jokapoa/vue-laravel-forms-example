@@ -11,7 +11,11 @@
                                 <label for="name" class="col-md-4 control-label">Name</label>
 
                                 <div class="col-md-6">
-                                    <input id="name" type="text" class="form-control" v-model="registrationForm.name" autofocus>
+                                    <input id="name" 
+                                           type="text" 
+                                           class="form-control"
+                                           v-model="registrationForm.name" 
+                                           autofocus>
 
                                     <span class="help-block" v-if="registrationForm.errors.has('name')">
                                         <strong>{{ registrationForm.errors.get('name') }}</strong>
