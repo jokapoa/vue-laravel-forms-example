@@ -1,3 +1,5 @@
+**Example User Registration Component for [vue-laravel-forms](https://github.com/cklmercer/vue-laravel-forms)**
+
 1. Install fresh copy of Laravel 5.3
 2. `npm install`
 4. `npm install vue-laravel-forms` 
