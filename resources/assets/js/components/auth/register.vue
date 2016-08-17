@@ -100,7 +100,7 @@
         methods: {
             register() {
                 this.$forms.post('register', this.registrationForm)
-                    .then((response) => window.location = response.redirectPath);
+                    .then(response => window.location = response.redirectPath);
             }
         }
     }
