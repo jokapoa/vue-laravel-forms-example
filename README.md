@@ -3,4 +3,4 @@
 3. Setup `.env` and run migrations
 4. `make:auth`
 5. Drop these files in your project, overwriting existing files as necessary.
-6. 'gulp'
+6. `gulp`
